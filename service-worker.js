@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cristian1534/github.io/jenkins-useReducer/precache-manifest.5f693f295a3dffd6bad9d17126a08351.js"
+  "/github.io/jenkins-useReducer/precache-manifest.9ace5802d16789d96927aeb35a71bc82.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cristian1534/github.io/jenkins-useReducer/index.html", {
+workbox.routing.registerNavigationRoute("/github.io/jenkins-useReducer/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
